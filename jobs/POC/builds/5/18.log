@@ -1,0 +1,25 @@
+[POC] Running shell script
++ mvn compile
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/tmp/agent/workspace/POC@tmp/withMavendb5044d4/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/tmp/agent/workspace/POC@tmp/withMavendb5044d4" 
+Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T18:33:14Z)
+Maven home: /tmp/agent/tools/hudson.tasks.Maven_MavenInstallation/maven
+Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-1021-azure", arch: "amd64", family: "unix"
+[INFO] [jenkins-event-spy] Generate /tmp/agent/workspace/POC@tmp/withMavendb5044d4/maven-spy-20180824-122928-7727279615513325202934.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.130 s
+[INFO] Finished at: 2018-08-24T12:29:29Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /tmp/agent/workspace/POC@tmp/withMavendb5044d4/maven-spy-20180824-122928-7727279615513325202934.log
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/tmp/agent/workspace/POC). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException

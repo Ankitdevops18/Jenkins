@@ -1,0 +1,8 @@
+Started on Aug 24, 2018 6:29:00 PM
+Using strategy: Default
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Ankitdevops18/JavaCode.git # timeout=10
+Found 1 remote heads on https://github.com/Ankitdevops18/JavaCode.git
+[poll] Latest remote head revision on refs/heads/master is: 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+Done. Took 0.41 sec
+Changes found

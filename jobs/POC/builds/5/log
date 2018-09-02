@@ -1,0 +1,76 @@
+Started by user unknown or anonymous
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4Joh/FC7kQIgd4D3wxz3ZzAFu9QeKF+P8JcZJr7v1Ls/AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/POC
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (code pull)
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Ankitdevops18/JavaCode.git # timeout=10
+Fetching upstream changes from https://github.com/Ankitdevops18/JavaCode.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Ankitdevops18/JavaCode.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+Commit message: "Merge pull request #8 from alperkaradeniz/patch-1"
+ > git rev-list --no-walk 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 # timeout=10
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4GJe136Tx9KHHpUdUH4WHfq77phxrEZEEiojYgzfgiqaAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYx/eT83ILSktQifcf01LyS+OKcxLJUfQBxFAJ5ywAAAA==[0mAgent_slave in /tmp/agent/workspace/POC
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (maven build)
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation provided by the build agent
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.5.4/apache-maven-3.5.4-bin.zip to /tmp/agent/tools/hudson.tasks.Maven_MavenInstallation/maven on Agent_slave
+[withMaven] using Maven installation 'maven'
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[POC] Running shell script
++ mvn compile
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/tmp/agent/workspace/POC@tmp/withMavendb5044d4/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/tmp/agent/workspace/POC@tmp/withMavendb5044d4" 
+Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T18:33:14Z)
+Maven home: /tmp/agent/tools/hudson.tasks.Maven_MavenInstallation/maven
+Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-1021-azure", arch: "amd64", family: "unix"
+[INFO] [jenkins-event-spy] Generate /tmp/agent/workspace/POC@tmp/withMavendb5044d4/maven-spy-20180824-122928-7727279615513325202934.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.130 s
+[INFO] Finished at: 2018-08-24T12:29:29Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /tmp/agent/workspace/POC@tmp/withMavendb5044d4/maven-spy-20180824-122928-7727279615513325202934.log
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/tmp/agent/workspace/POC). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4HoV1jg97F5WXSQbmpCGaVhz0907rcdI9yLloMdLsrEmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[withMaven] Jenkins [8mha:////4CP+nIftqiog7iGcGNPNADFZ2uUWgTPbDeiRDfbQDOGdAAAAvB+LCAAAAAAAAP9djMEJwjAUQL8VHUBv4gbF5uZBKR5EsFqKUBcIbUjThJ+QpNqu4Rp6cQjHcQeV3nyX907v8YaRszCvmtJpjAqNTisW7TvDrBIoM+3ZMr4/45t5BRAkMFYMua9SGDZWeZikNb1QoihyknsrkK9bC7O/3bb3bwY9gwCgNd+YethU3hu3IuQqpIhqhlKgWxQi0paTUjijaEcOu+yYZDk5UyfDvKCIzIYn1XCBHwby8vjEAAAA[0mTask Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withMaven
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

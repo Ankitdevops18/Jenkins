@@ -1,0 +1,50 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.24">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <hudson.triggers.SCMTrigger>
+          <spec>* * * * *
+</spec>
+          <ignorePostCommitHooks>false</ignorePostCommitHooks>
+        </hudson.triggers.SCMTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.54">
+    <script>node(&apos;master&apos;) {
+    stage(&apos;code pull&apos;) {
+    git &apos;https://github.com/Ankitdevops18/JavaCode.git&apos;
+}
+}
+
+
+node(&apos;Agent_slave&apos;) {
+    
+    stage(&apos;maven build&apos;) {
+    git &apos;https://github.com/Ankitdevops18/JavaCode.git&apos;
+    withMaven(maven: &apos;maven&apos;) {
+    sh &quot;mvn compile&quot;
+}
+    
+}
+stage(&apos;uploading to S3&apos;) {
+s3Upload consoleLogLevel: &apos;INFO&apos;, dontWaitForConcurrentBuildCompletion: false, entries: [[bucket: &apos;ankitsolanki1821/apkarchive&apos;, excludedFile: &apos;&apos;, flatten: false, gzipFiles: false, keepForever: false, managedArtifacts: false, noUploadOnFailure: false, selectedRegion: &apos;us-east-1&apos;, showDirectlyInBrowser: false, sourceFile: &apos;**/*.xml&apos;, storageClass: &apos;STANDARD&apos;, uploadFromSlave: false, useServerSideEncryption: false]], pluginFailureResultConstraint: &apos;FAILURE&apos;, profileName: &apos;jenkinspublisher&apos;, userMetadata: []
+
+}
+    
+}
+
+
+
+
+  
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

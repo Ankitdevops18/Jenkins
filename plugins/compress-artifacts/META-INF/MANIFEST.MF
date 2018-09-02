@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ogondza
+Build-Jdk: 1.8.0_121
+Extension-Name: compress-artifacts
+Specification-Title: Keeps build artifacts compressed to save disk spa
+ ce on the master.
+Implementation-Title: compress-artifacts
+Implementation-Version: 1.10
+Group-Id: org.jenkins-ci.plugins
+Short-Name: compress-artifacts
+Long-Name: Compress Artifacts Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Compress+Artifacts+Pl
+ ugin
+Plugin-Version: 1.10
+Hudson-Version: 1.580
+Jenkins-Version: 1.580
+Plugin-Developers: Oliver Gondža:olivergondza:ogondza@gmail.com
+

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-08-24 18:29:25.607 UTC</timestamp>
+  <md5sum>81745e6a2fa04da1dc5c2a60d478a589</md5sum>
+  <fileName>info.cukes:cucumber-picocontainer-1.2.4.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven_project</string>
+      <ranges>5-9</ranges>
+    </entry>
+    <entry>
+      <string>maven_project/groupId:CucumberBasics</string>
+      <ranges>5-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

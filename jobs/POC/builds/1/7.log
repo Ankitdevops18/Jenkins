@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/Ankitdevops18/POC1.git
+ > git init /var/lib/jenkins/workspace/POC # timeout=10
+Fetching upstream changes from https://github.com/Ankitdevops18/POC1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Ankitdevops18/POC1.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Ankitdevops18/POC1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Ankitdevops18/POC1.git # timeout=10
+Fetching upstream changes from https://github.com/Ankitdevops18/POC1.git
+ > git fetch --tags --progress https://github.com/Ankitdevops18/POC1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3f6d8623e69e618ce1a9e2aa25b51489f1380316 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3f6d8623e69e618ce1a9e2aa25b51489f1380316
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 3f6d8623e69e618ce1a9e2aa25b51489f1380316
+Commit message: "java files compiled and ran"
+First time build. Skipping changelog.

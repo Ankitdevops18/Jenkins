@@ -1,0 +1,144 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.20">
+  <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@2.29">
+    <parentIds>
+      <string>20</string>
+    </parentIds>
+    <id>21</id>
+    <startId>2</startId>
+    <result>
+      <name>FAILURE</name>
+      <ordinal>2</ordinal>
+      <color>RED</color>
+      <completeBuild>true</completeBuild>
+    </result>
+  </node>
+  <actions>
+    <wf.a.ErrorAction plugin="workflow-api@2.29">
+      <error class="java.io.IOException">
+        <detailMessage>Cannot run program &quot;powershell&quot; (in directory &quot;/tmp/agent/workspace/POC&quot;): error=2, No such file or directory</detailMessage>
+        <cause class="java.io.IOException">
+          <detailMessage>error=2, No such file or directory</detailMessage>
+          <stackTrace>
+            <trace>java.lang.UNIXProcess.forkAndExec(Native Method)</trace>
+            <trace>java.lang.UNIXProcess.&lt;init&gt;(UNIXProcess.java:247)</trace>
+            <trace>java.lang.ProcessImpl.start(ProcessImpl.java:134)</trace>
+            <trace>java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)</trace>
+            <trace>hudson.Proc$LocalProc.&lt;init&gt;(Proc.java:249)</trace>
+            <trace>hudson.Proc$LocalProc.&lt;init&gt;(Proc.java:218)</trace>
+            <trace>hudson.Launcher$LocalLauncher.launch(Launcher.java:929)</trace>
+            <trace>hudson.Launcher$ProcStarter.start(Launcher.java:449)</trace>
+            <trace>hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1299)</trace>
+            <trace>hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1259)</trace>
+            <trace>hudson.remoting.UserRequest.perform(UserRequest.java:212)</trace>
+            <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+            <trace>hudson.remoting.Request$2.run(Request.java:369)</trace>
+            <trace>hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)</trace>
+            <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+            <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+            <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+            <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)</trace>
+            <trace>java.lang.Thread.run(Thread.java:748)</trace>
+          </stackTrace>
+          <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+            <c class="list"/>
+            <list reference="../c"/>
+          </suppressedExceptions>
+        </cause>
+        <stackTrace>
+          <trace>java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)</trace>
+          <trace>hudson.Proc$LocalProc.&lt;init&gt;(Proc.java:249)</trace>
+          <trace>hudson.Proc$LocalProc.&lt;init&gt;(Proc.java:218)</trace>
+          <trace>hudson.Launcher$LocalLauncher.launch(Launcher.java:929)</trace>
+          <trace>hudson.Launcher$ProcStarter.start(Launcher.java:449)</trace>
+          <trace>hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1299)</trace>
+          <trace>hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1259)</trace>
+          <trace>hudson.remoting.UserRequest.perform(UserRequest.java:212)</trace>
+          <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+          <trace>hudson.remoting.Request$2.run(Request.java:369)</trace>
+          <trace>hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions>
+          <hudson.remoting.Channel_-CallSiteStackTrace>
+            <detailMessage>Remote call to JNLP4-connect connection from localhost/127.0.0.1:46058</detailMessage>
+            <stackTrace>
+              <trace>hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1741)</trace>
+              <trace>hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:357)</trace>
+              <trace>hudson.remoting.Channel.call(Channel.java:955)</trace>
+              <trace>hudson.Launcher$RemoteLauncher.launch(Launcher.java:1052)</trace>
+              <trace>hudson.Launcher$ProcStarter.start(Launcher.java:449)</trace>
+              <trace>org.jenkinsci.plugins.durabletask.PowershellScript.doLaunch(PowershellScript.java:126)</trace>
+              <trace>org.jenkinsci.plugins.durabletask.FileMonitoringTask.launchWithCookie(FileMonitoringTask.java:93)</trace>
+              <trace>org.jenkinsci.plugins.durabletask.FileMonitoringTask.launch(FileMonitoringTask.java:86)</trace>
+              <trace>org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.start(DurableTaskStep.java:182)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:229)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:153)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)</trace>
+              <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+              <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+              <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+              <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+              <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)</trace>
+              <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+              <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)</trace>
+              <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:157)</trace>
+              <trace>org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)</trace>
+              <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:133)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:155)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:159)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:129)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:129)</trace>
+              <trace>com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:57)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:109)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:82)</trace>
+              <trace>sun.reflect.GeneratedMethodAccessor563.invoke(Unknown Source)</trace>
+              <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+              <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)</trace>
+              <trace>com.cloudbees.groovy.cps.Next.step(Next.java:83)</trace>
+              <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)</trace>
+              <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)</trace>
+              <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:122)</trace>
+              <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:261)</trace>
+              <trace>com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$101(SandboxContinuable.java:34)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.lambda$run0$0(SandboxContinuable.java:59)</trace>
+              <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:108)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:58)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:174)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:332)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$200(CpsThreadGroup.java:83)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:244)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:232)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:64)</trace>
+              <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+              <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:131)</trace>
+              <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+              <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)</trace>
+              <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+              <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+              <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+              <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+              <trace>java.lang.Thread.run(Thread.java:748)</trace>
+            </stackTrace>
+            <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="../../../cause/suppressedExceptions"/>
+          </hudson.remoting.Channel_-CallSiteStackTrace>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+    <wf.a.TimingAction plugin="workflow-api@2.29">
+      <startTime>1535113126096</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

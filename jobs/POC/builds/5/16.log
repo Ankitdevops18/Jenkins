@@ -1,0 +1,5 @@
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation provided by the build agent
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.5.4/apache-maven-3.5.4-bin.zip to /tmp/agent/tools/hudson.tasks.Maven_MavenInstallation/maven on Agent_slave
+[withMaven] using Maven installation 'maven'

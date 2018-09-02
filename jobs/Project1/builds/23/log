@@ -1,0 +1,41 @@
+Started by user unknown or anonymous
+Building on master in workspace /var/lib/jenkins/workspace/Project1
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Ankitdevops18/JavaCode.git # timeout=10
+Fetching upstream changes from https://github.com/Ankitdevops18/JavaCode.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Ankitdevops18/JavaCode.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+Commit message: "Merge pull request #8 from alperkaradeniz/patch-1"
+ > git rev-list --no-walk 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 # timeout=10
+[Project1] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin/mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< groupId:CucumberBasics >-----------------------
+[INFO] Building CucumberBasics 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DeKrkuGgFlqOBVbIMZPgWG12sjZvRUiVTqikI+KlrofAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CucumberBasics ---
+[8mha:////4MTZwTh29XQjbL8cRz1LQyvDF/BbXp+g9GGNiL0fC7/MAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Project1/src/main/resources
+[INFO] 
+[8mha:////4DeKrkuGgFlqOBVbIMZPgWG12sjZvRUiVTqikI+KlrofAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CucumberBasics ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.250 s
+[INFO] Finished at: 2018-08-24T11:39:29Z
+[INFO] ------------------------------------------------------------------------
+File Zip Operation:
+Creating Zip file of /var/lib/jenkins/workspace/Project1
+Archiving artifacts
+Publish artifacts to S3 Bucket Build is still running
+Publish artifacts to S3 Bucket Using S3 profile: jenkinspublisher
+Publish artifacts to S3 Bucket No file(s) found: **/*.apk
+Finished: SUCCESS

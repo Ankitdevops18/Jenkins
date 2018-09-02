@@ -1,0 +1,142 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.24">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.7.3">
+              <sha1>7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>4</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/Ankitdevops18/JavaCode.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/POC</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/Ankitdevops18/JavaCode.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+  </actions>
+  <queueId>36</queueId>
+  <timestamp>1535113284896</timestamp>
+  <startTime>1535113284912</startTime>
+  <result>FAILURE</result>
+  <duration>2400</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node(&apos;master&apos;) {
+    stage(&apos;code pull&apos;) {
+    git &apos;https://github.com/Ankitdevops18/JavaCode.git&apos;
+}
+}
+
+node(&apos;Agent_slave&apos;) {
+    stage(&apos;maven build&apos;) {
+    sh &apos;mvn compile&apos;
+}
+
+    
+}
+
+
+  
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>1088776718</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>5929834</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1678640252</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>21106022</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>24390744</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>21</iota>
+    <head>1:21</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/Ankitdevops18/JavaCode.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>master</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/POC</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/POC/builds/4/changelog0.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

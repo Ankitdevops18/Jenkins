@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-08-24 18:29:25.451 UTC</timestamp>
+  <md5sum>a551e06068996e08b3a85e06ff911628</md5sum>
+  <fileName>info.cukes:cucumber-core-1.2.5.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven_project</string>
+      <ranges>5-9</ranges>
+    </entry>
+    <entry>
+      <string>maven_project/groupId:CucumberBasics</string>
+      <ranges>5-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,54 @@
+Publish artifacts to S3 Bucket Build is still running
+Publish artifacts to S3 Bucket Using S3 profile: jenkinspublisher
+Publish artifacts to S3 Bucket No file(s) found: **/.pom
+Publish artifacts to S3 Bucket bucket=, file=compiler.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=profiles_settings.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=description.html region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_core_1_2_5.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_html_0_2_3.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_java_1_2_5.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_junit_1_2_5.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_picocontainer_1_2_4.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_gherkin_2_12_2.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__junit_junit_4_12.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__org_hamcrest_hamcrest_core_1_3.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__org_picocontainer_picocontainer_2_15.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=misc.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=modules.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=project-template.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=uiDesigner.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=workspace.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=CucumberBasics.iml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Readme.md region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=pom.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Main.java region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=BaseUtil.java region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Login.feature region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Hook.java region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=LoginStep.java region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Main.class region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=createdFiles.lst region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=inputFiles.lst region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+ERROR: Failed to upload files
+com.amazonaws.services.s3.model.AmazonS3Exception: The AWS Access Key Id you provided does not exist in our records. (Service: Amazon S3; Status Code: 403; Error Code: InvalidAccessKeyId; Request ID: 5848A7D108D6AC94; S3 Extended Request ID: s6ICNonoVBjYIFQkMrCEzZ/T+AXW2jh9V+okKnocuFmdSF7WtVMbdUR301DFYEWONsJto6op3uk=), S3 Extended Request ID: s6ICNonoVBjYIFQkMrCEzZ/T+AXW2jh9V+okKnocuFmdSF7WtVMbdUR301DFYEWONsJto6op3uk=
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1632)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1304)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1058)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:743)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:717)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:699)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:667)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:649)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4365)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4312)
+	at com.amazonaws.services.s3.AmazonS3Client.putObject(AmazonS3Client.java:1755)
+	at com.amazonaws.services.s3.transfer.internal.UploadCallable.uploadInOneChunk(UploadCallable.java:133)
+	at com.amazonaws.services.s3.transfer.internal.UploadCallable.call(UploadCallable.java:125)
+	at com.amazonaws.services.s3.transfer.internal.UploadMonitor.call(UploadMonitor.java:143)
+	at com.amazonaws.services.s3.transfer.internal.UploadMonitor.call(UploadMonitor.java:48)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

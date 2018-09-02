@@ -1,0 +1,9 @@
+Started on Sep 2, 2018 8:13:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Ankitdevops18/JavaCode.git # timeout=10
+Found 1 remote heads on https://github.com/Ankitdevops18/JavaCode.git
+[poll] Latest remote head revision on refs/heads/master is: 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 - already built by 9
+Done. Took 0.28 sec
+No changes

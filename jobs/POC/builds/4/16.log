@@ -1,0 +1,3 @@
+[POC] Running shell script
++ mvn compile
+/tmp/agent/workspace/POC@tmp/durable-c2bb38d9/script.sh: 2: /tmp/agent/workspace/POC@tmp/durable-c2bb38d9/script.sh: mvn: not found

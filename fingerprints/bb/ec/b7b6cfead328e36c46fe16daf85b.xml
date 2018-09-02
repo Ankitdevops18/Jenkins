@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-08-31 07:03:04.637 UTC</timestamp>
+  <original>
+    <name>maven_project/groupId:CucumberBasics</name>
+    <number>8</number>
+  </original>
+  <md5sum>bbecb7b6cfead328e36c46fe16daf85b</md5sum>
+  <fileName>groupId:CucumberBasics-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven_project</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>maven_project/groupId:CucumberBasics</string>
+      <ranges>8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

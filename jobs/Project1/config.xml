@@ -1,0 +1,100 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.1">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/Ankitdevops18/JavaCode.git</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <hudson.triggers.SCMTrigger>
+      <spec>* * * * *</spec>
+      <ignorePostCommitHooks>false</ignorePostCommitHooks>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Maven>
+      <targets>compile</targets>
+      <mavenName>Maven</mavenName>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+      <injectBuildVariables>false</injectBuildVariables>
+    </hudson.tasks.Maven>
+    <sp.sd.fileoperations.FileOperationsBuilder plugin="file-operations@1.7">
+      <fileOperations>
+        <sp.sd.fileoperations.FileZipOperation>
+          <folderPath>/var/lib/jenkins/workspace/Project1</folderPath>
+        </sp.sd.fileoperations.FileZipOperation>
+      </fileOperations>
+    </sp.sd.fileoperations.FileOperationsBuilder>
+  </builders>
+  <publishers>
+    <hudson.tasks.ArtifactArchiver>
+      <artifacts>***/*.xml</artifacts>
+      <allowEmptyArchive>false</allowEmptyArchive>
+      <onlyIfSuccessful>false</onlyIfSuccessful>
+      <fingerprint>false</fingerprint>
+      <defaultExcludes>true</defaultExcludes>
+      <caseSensitive>true</caseSensitive>
+    </hudson.tasks.ArtifactArchiver>
+    <hudson.plugins.s3.S3BucketPublisher plugin="s3@0.11.2">
+      <profileName>jenkinspublisher</profileName>
+      <entries>
+        <hudson.plugins.s3.Entry>
+          <bucket>ankitsolanki1821/apkarchive</bucket>
+          <sourceFile>**/*.xml</sourceFile>
+          <excludedFile></excludedFile>
+          <storageClass>STANDARD</storageClass>
+          <selectedRegion>us-east-1</selectedRegion>
+          <noUploadOnFailure>false</noUploadOnFailure>
+          <uploadFromSlave>false</uploadFromSlave>
+          <managedArtifacts>false</managedArtifacts>
+          <useServerSideEncryption>false</useServerSideEncryption>
+          <flatten>false</flatten>
+          <gzipFiles>true</gzipFiles>
+          <showDirectlyInBrowser>false</showDirectlyInBrowser>
+          <keepForever>false</keepForever>
+        </hudson.plugins.s3.Entry>
+      </entries>
+      <dontWaitForConcurrentBuildCompletion>false</dontWaitForConcurrentBuildCompletion>
+      <consoleLogLevel>
+        <name>INFO</name>
+        <value>800</value>
+        <resourceBundleName>sun.util.logging.resources.logging</resourceBundleName>
+      </consoleLogLevel>
+      <pluginFailureResultConstraint>
+        <name>FAILURE</name>
+        <ordinal>2</ordinal>
+        <color>RED</color>
+        <completeBuild>true</completeBuild>
+      </pluginFailureResultConstraint>
+      <userMetadata/>
+    </hudson.plugins.s3.S3BucketPublisher>
+    <hudson.tasks.Mailer plugin="mailer@1.21">
+      <recipients>ankitsolanki1821@gmail.com</recipients>
+      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>false</sendToIndividuals>
+    </hudson.tasks.Mailer>
+  </publishers>
+  <buildWrappers/>
+</project>

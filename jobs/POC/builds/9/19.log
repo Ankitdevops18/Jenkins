@@ -1,0 +1,29 @@
+[POC] Running shell script
++ mvn compile
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/tmp/agent/workspace/POC@tmp/withMaven2933e549/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/tmp/agent/workspace/POC@tmp/withMaven2933e549" 
+Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T18:33:14Z)
+Maven home: /tmp/agent/tools/hudson.tasks.Maven_MavenInstallation/maven
+Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-1021-azure", arch: "amd64", family: "unix"
+[INFO] [jenkins-event-spy] Generate /tmp/agent/workspace/POC@tmp/withMaven2933e549/maven-spy-20180824-124437-5705434293304961287075.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< groupId:CucumberBasics >-----------------------
+[INFO] Building CucumberBasics 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DeKrkuGgFlqOBVbIMZPgWG12sjZvRUiVTqikI+KlrofAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CucumberBasics ---
+[8mha:////4MTZwTh29XQjbL8cRz1LQyvDF/BbXp+g9GGNiL0fC7/MAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /tmp/agent/workspace/POC/src/main/resources
+[INFO] 
+[8mha:////4DeKrkuGgFlqOBVbIMZPgWG12sjZvRUiVTqikI+KlrofAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CucumberBasics ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.230 s
+[INFO] Finished at: 2018-08-24T12:44:39Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /tmp/agent/workspace/POC@tmp/withMaven2933e549/maven-spy-20180824-124437-5705434293304961287075.log

@@ -1,0 +1,16 @@
+Started by an SCM change
+Building in workspace /var/lib/jenkins/workspace/Project1
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Ankitdevops18/POC1.git # timeout=10
+Fetching upstream changes from https://github.com/Ankitdevops18/POC1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Ankitdevops18/POC1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3f6d8623e69e618ce1a9e2aa25b51489f1380316 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3f6d8623e69e618ce1a9e2aa25b51489f1380316
+Commit message: "java files compiled and ran"
+ > git rev-list --no-walk 66a81bea2435c0cb04f6809f9bd91d0d16bc1f2b # timeout=10
+Finished: SUCCESS

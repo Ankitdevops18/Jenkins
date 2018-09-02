@@ -1,0 +1,154 @@
+Started by user unknown or anonymous
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4Joh/FC7kQIgd4D3wxz3ZzAFu9QeKF+P8JcZJr7v1Ls/AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/POC
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (code pull)
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Ankitdevops18/JavaCode.git # timeout=10
+Fetching upstream changes from https://github.com/Ankitdevops18/JavaCode.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Ankitdevops18/JavaCode.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+Commit message: "Merge pull request #8 from alperkaradeniz/patch-1"
+ > git rev-list --no-walk 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 # timeout=10
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4GJe136Tx9KHHpUdUH4WHfq77phxrEZEEiojYgzfgiqaAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYx/eT83ILSktQifcf01LyS+OKcxLJUfQBxFAJ5ywAAAA==[0mAgent_slave in /tmp/agent/workspace/POC
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (maven build)
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Ankitdevops18/JavaCode.git # timeout=10
+Fetching upstream changes from https://github.com/Ankitdevops18/JavaCode.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Ankitdevops18/JavaCode.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+Commit message: "Merge pull request #8 from alperkaradeniz/patch-1"
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation provided by the build agent
+[withMaven] using Maven installation 'maven'
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[POC] Running shell script
++ mvn compile
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/tmp/agent/workspace/POC@tmp/withMaven55688ca7/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/tmp/agent/workspace/POC@tmp/withMaven55688ca7" 
+Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T18:33:14Z)
+Maven home: /tmp/agent/tools/hudson.tasks.Maven_MavenInstallation/maven
+Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-1021-azure", arch: "amd64", family: "unix"
+[INFO] [jenkins-event-spy] Generate /tmp/agent/workspace/POC@tmp/withMaven55688ca7/maven-spy-20180824-124119-943377718608942814614.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< groupId:CucumberBasics >-----------------------
+[INFO] Building CucumberBasics 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4DeKrkuGgFlqOBVbIMZPgWG12sjZvRUiVTqikI+KlrofAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CucumberBasics ---
+[8mha:////4MTZwTh29XQjbL8cRz1LQyvDF/BbXp+g9GGNiL0fC7/MAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /tmp/agent/workspace/POC/src/main/resources
+[INFO] 
+[8mha:////4DeKrkuGgFlqOBVbIMZPgWG12sjZvRUiVTqikI+KlrofAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CucumberBasics ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.296 s
+[INFO] Finished at: 2018-08-24T12:41:20Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /tmp/agent/workspace/POC@tmp/withMaven55688ca7/maven-spy-20180824-124119-943377718608942814614.log
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[withMaven] artifactsPublisher - Archive artifact pom.xml under groupId/CucumberBasics/1.0-SNAPSHOT/CucumberBasics-1.0-SNAPSHOT.pom
+[withMaven] Jenkins [8mha:////4CP+nIftqiog7iGcGNPNADFZ2uUWgTPbDeiRDfbQDOGdAAAAvB+LCAAAAAAAAP9djMEJwjAUQL8VHUBv4gbF5uZBKR5EsFqKUBcIbUjThJ+QpNqu4Rp6cQjHcQeV3nyX907v8YaRszCvmtJpjAqNTisW7TvDrBIoM+3ZMr4/45t5BRAkMFYMua9SGDZWeZikNb1QoihyknsrkK9bC7O/3bb3bwY9gwCgNd+YethU3hu3IuQqpIhqhlKgWxQi0paTUjijaEcOu+yYZDk5UyfDvKCIzIYn1XCBHwby8vjEAAAA[0mTask Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withMaven
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (uploading to S3)
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] s3Upload
+Publish artifacts to S3 Bucket Build is still running
+Publish artifacts to S3 Bucket Using S3 profile: jenkinspublisher
+Publish artifacts to S3 Bucket No file(s) found: **/.pom
+Publish artifacts to S3 Bucket bucket=, file=compiler.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=profiles_settings.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=description.html region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_core_1_2_5.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_html_0_2_3.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_java_1_2_5.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_junit_1_2_5.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_cucumber_picocontainer_1_2_4.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__info_cukes_gherkin_2_12_2.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__junit_junit_4_12.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__org_hamcrest_hamcrest_core_1_3.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Maven__org_picocontainer_picocontainer_2_15.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=misc.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=modules.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=project-template.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=uiDesigner.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=workspace.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=CucumberBasics.iml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Readme.md region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=pom.xml region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Main.java region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=BaseUtil.java region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Login.feature region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Hook.java region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=LoginStep.java region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=Main.class region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=createdFiles.lst region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=, file=inputFiles.lst region=us-gov-west-1, will be uploaded from slave=false managed=false , server encryption false
+ERROR: Failed to upload files
+com.amazonaws.services.s3.model.AmazonS3Exception: The AWS Access Key Id you provided does not exist in our records. (Service: Amazon S3; Status Code: 403; Error Code: InvalidAccessKeyId; Request ID: BF5ACF0E1DA15DD8; S3 Extended Request ID: r1R0rsHLKotFpuhTFcVD8dBLKnFG8+EZD+QUr2UEtz9F+puhglYSxqo6DxnxR/o7DrvmxgWcXcU=), S3 Extended Request ID: r1R0rsHLKotFpuhTFcVD8dBLKnFG8+EZD+QUr2UEtz9F+puhglYSxqo6DxnxR/o7DrvmxgWcXcU=
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1632)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1304)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1058)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:743)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:717)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:699)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:667)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:649)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4365)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4312)
+	at com.amazonaws.services.s3.AmazonS3Client.putObject(AmazonS3Client.java:1755)
+	at com.amazonaws.services.s3.transfer.internal.UploadCallable.uploadInOneChunk(UploadCallable.java:133)
+	at com.amazonaws.services.s3.transfer.internal.UploadCallable.call(UploadCallable.java:125)
+	at com.amazonaws.services.s3.transfer.internal.UploadMonitor.call(UploadMonitor.java:143)
+	at com.amazonaws.services.s3.transfer.internal.UploadMonitor.call(UploadMonitor.java:48)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4P2AvrAD1jPdZbI+sDuFj82m1XSJNyLeEKGeeLFJd6orAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: UNSTABLE

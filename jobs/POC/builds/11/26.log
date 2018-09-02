@@ -1,0 +1,20 @@
+Publish artifacts to S3 Bucket Build is still running
+Publish artifacts to S3 Bucket Using S3 profile: jenkinspublisher
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=compiler.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=profiles_settings.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__info_cukes_cucumber_core_1_2_5.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__info_cukes_cucumber_html_0_2_3.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__info_cukes_cucumber_java_1_2_5.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__info_cukes_cucumber_junit_1_2_5.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__info_cukes_cucumber_picocontainer_1_2_4.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__info_cukes_gherkin_2_12_2.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__junit_junit_4_12.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__org_hamcrest_hamcrest_core_1_3.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=Maven__org_picocontainer_picocontainer_2_15.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=misc.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=modules.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=project-template.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=uiDesigner.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=workspace.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false
+Publish artifacts to S3 Bucket bucket=ankitsolanki1821/apkarchive, file=pom.xml region=us-east-1, will be uploaded from slave=false managed=false , server encryption false

@@ -1,0 +1,9 @@
+Started on Aug 9, 2018 6:27:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 94b9bcd8ae14a2bd2882fc4c88a37316d28eb216 (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Ankitdevops18/POC1.git # timeout=10
+Found 3 remote heads on https://github.com/Ankitdevops18/POC1.git
+[poll] Latest remote head revision on refs/heads/master is: 66a81bea2435c0cb04f6809f9bd91d0d16bc1f2b
+Done. Took 0.18 sec
+Changes found

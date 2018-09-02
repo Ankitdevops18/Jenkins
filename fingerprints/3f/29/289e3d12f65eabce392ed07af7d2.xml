@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-08-24 12:37:16.370 UTC</timestamp>
+  <original>
+    <name>POC</name>
+    <number>7</number>
+  </original>
+  <md5sum>3f29289e3d12f65eabce392ed07af7d2</md5sum>
+  <fileName>groupId/CucumberBasics/1.0-SNAPSHOT/CucumberBasics-1.0-SNAPSHOT.pom</fileName>
+  <usages>
+    <entry>
+      <string>maven_project</string>
+      <ranges>5-9</ranges>
+    </entry>
+    <entry>
+      <string>POC</string>
+      <ranges>7-12</ranges>
+    </entry>
+    <entry>
+      <string>maven_project/groupId:CucumberBasics</string>
+      <ranges>5-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

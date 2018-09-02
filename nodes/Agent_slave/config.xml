@@ -1,0 +1,18 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>Agent_slave</name>
+  <description></description>
+  <remoteFS>/tmp/agent</remoteFS>
+  <numExecutors>3</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.slaves.JNLPLauncher">
+    <workDirSettings>
+      <disabled>false</disabled>
+      <internalDir>remoting</internalDir>
+      <failIfWorkDirIsMissing>false</failIfWorkDirIsMissing>
+    </workDirSettings>
+  </launcher>
+  <label>Agent</label>
+  <nodeProperties/>
+</slave>

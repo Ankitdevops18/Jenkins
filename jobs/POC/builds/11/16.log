@@ -1,0 +1,19 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/Ankitdevops18/JavaCode.git
+ > git init /tmp/agent/workspace/POC@2 # timeout=10
+Fetching upstream changes from https://github.com/Ankitdevops18/JavaCode.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Ankitdevops18/JavaCode.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Ankitdevops18/JavaCode.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Ankitdevops18/JavaCode.git # timeout=10
+Fetching upstream changes from https://github.com/Ankitdevops18/JavaCode.git
+ > git fetch --tags --progress https://github.com/Ankitdevops18/JavaCode.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+Commit message: "Merge pull request #8 from alperkaradeniz/patch-1"
